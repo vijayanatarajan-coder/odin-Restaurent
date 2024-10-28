@@ -1,0 +1,33 @@
+.grid {
+  display: grid;
+  gap: 0.5em 3em;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+.item {
+  padding: 0 0.5em;
+}
+
+.list {
+  display: block;
+  line-height: 1.4;
+}
+
+.title {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.description {
+  min-width: 150px;
+  margin: 0;
+  text-align: left;
+  font-size: 0.8em;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    display: block;
+  }
+}

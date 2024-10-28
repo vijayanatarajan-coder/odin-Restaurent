@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  background-color: #fff1da;
+}
+
+nav.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fff1da;
+}
+
+nav.topnav button {
+  float: left;
+}
+
+nav.topnav button {
+  display: block;
+  color: #893f26;
+  text-align: center;
+  padding: 15px 13px;
+  text-decoration: none;
+  margin: 5px;
+  border: none;
+  background: none;
+  font-size: 16px;
+}
+.left {
+  width: 60px;
+  height: 60px;
+}
+.logo-name {
+  position: relative;
+  top: 23px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #893f26;
+}
+nav.topnav button:focus {
+  color: #000;
+  border-radius: 5px;
+}
+nav.topnav button:hover {
+  color: #000;
+}
+nav.topnav img.left {
+  float: left;
+}
+nav.topnav button {
+  float: right;
+}
+
+footer p {
+  text-align: center;
+  background-color: #fff1da;
+  color: #893f26;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+@media screen and (max-width: 600px) {
+  nav.topnav button.right,
+  nav.topnav button {
+  }
+}
